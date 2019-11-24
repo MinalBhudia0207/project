@@ -1,0 +1,32 @@
+body{
+    background-color: grey;
+}
+table{
+    background-color: white;
+    width: 70%;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin: 20px 50px 0px 160px;
+}
+td, th{
+    height: 50px;
+    width:40px;
+}
+
+tfoot{
+    background: navy;
+    color: white;
+    text-align: right;
+    font-style: italic;
+    font-size: 80%;
+}
+
+.category{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+table thead{
+    color: darkslateblue;
+}
