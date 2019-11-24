@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+html{
+    box-sizing: border-box;
+}
+.maps{
+    overflow:hidden;
+    width: 700px;
+    position: relative;
+}
+.about{
+    text-align: center;
+}
+.contact img{
+    width: 800px;
+    height: 200px;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+body{
+    padding: 10px 0px;
+    background-color: white;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    background-size: 100% 100%;
+    min-height: 90px;
+}
+div{
+    margin:15px 0px;
+    padding:10px 20px;
+    display: inline;
+}
+.about>img{
+    width:50%;
+    height:30%;
+    margin:5px 5px 5px 70px;
+}
+
+/*Navigation Bar*/
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 10px;
+}
+li, .drop{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+.navbar{
+    float: right;
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+}
+.dropdown {
+    overflow: hidden;
+    float: left;
+}
+.navbar li:hover, .dropdown:hover .drop {
+background-color: grey;
+}
+
+.drop, .dropdown {
+font-size: 18px;
+padding: 10px;
+border: none;
+color: white;
+background-color: black;
+}
+
+.dropdownitems {
+display: none;
+position: absolute;
+background-color: black;
+color: white;
+min-width: 100px;
+}
+.dropdownitems a:hover {
+background-color: grey;
+}
+
+.dropdown:hover .dropdownitems {
+display: block;
+}
+
+.dropdownitems a {
+color: white;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+legend{
+    background-color: black;
+    color: white;
+    padding:5px;
+}
+fieldset{
+    width: 40%;
+    height: 40%;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+div{
+    margin: 30px;
+    padding:40px;
+    display: block;
+}
+input{
+    padding:10px;
+    float: right;
+}
+.buttonlogin{
+    padding: 10px;
+    margin:30px;
+    background-color: black;
+    color: white;
+}
+.sportman a, .team a{
+    padding: 70px;
+    background-color: black;
+    margin: 90px;
+    text-decoration: none;
+    color: white;
+  }
+.sportman, .team{
+    margin-top: 150px;
+}
+.addplayer{
+    width:80%;
+    margin:100px;
+}
+.addplayer div{
+   margin:0px;
+}
+
+.addplayer>div input{
+    width:50%;
+}
