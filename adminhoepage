@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Minal Dhansukhlal">
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/table.css" rel="stylesheet">
+        <link rel="icon" href="images/header.jpg">
+        <style src="javascript/project.js"></style>
+    </head>
+    <body>
+        <header>
+            <h1>Sports and Players</h1>
+            
+    <section class="navbar">
+        <ul>
+            <li><a href="mainpage.html">Home</a</li>
+            <li><a href="sportmanprofile.html">Sportman Profile</a></li>
+            <li class="dropdown">
+                <button class="drop">Sport Teams</button>
+                <div class="dropdownitems">
+                    <a href="cricket.html">Cricket</a>
+                    <a href="#">Football</a>
+                </div>
+            </li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="admin.html">Admin</a></li>
+        </ul>
+    </section>
+    </header>
+    <h2>Team India</h2>
+       <article>
+             <table class="cricket">
+                 <thead>
+                     <tr>
+                        <th colspan="2">
+                            <img src="images/india.jpg">
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                        
+                    <tr class="category">
+                        <th>Cricket Team</th>
+                        <td>India</td>
+                    </tr>
+                    <tr class="category">
+                        <th>Nicknames</th>
+                        <td>Men in blue, Team India, All blues</td>
+                    </tr>
+                    <tr>
+                        <th class="category">Captain of the Team</th>
+                        <td>Virat Kohli</td>   
+                    </tr>
+                    <tr>
+                        <th class="category">Coach</th>
+                        <td>Ravi Shastri</td>
+                    </tr>
+                    <tr>
+                        <th class="category">Association</th>
+                        <td>Board of control for cricket in India</td>
+                    </tr>
+                    <tr>
+                        <th>ICC Status</th>
+                        <td>Full Member since 1926</td>
+                    </tr>
+
+                    <tr>
+                        <th class="category">Total Tests Played</th>
+                        <td>539</td>
+                    </tr>
+                    <tr>
+                        <th class="category">Tests Won/Lost</th>
+                        <td>156/165</td>
+                    </tr>
+                    <tr>
+                        <th class="category">ODI Played</th>
+                        <td>978</td>
+                    </tr>
+                    <tr>
+                        <th class="category">ODI Won/Lost</th>
+                        <td>509/419</td>
+                    </tr>
+                    <tr>
+                        <th class="category">Twenty20 International Played</th>
+                        <td>123</td>
+                    </tr>
+                    <tr>
+                        <th class="category">Twenty20 International Won/Lost</th>
+                        <td>76/43</td>
+                    </tr>
+                    <tr>
+                        <table>
+                            <tr>
+                                <th class="category">ICC Rankings</th>
+                                <th class="category">Current</th>
+                                <th class="category">Best Ever</th>
+                            </tr>
+                            <tr>
+                                <td>Test</td>
+                                <td>1st</td>
+                                <td>1st</td>
+                            </tr>
+                            <tr>
+                                <td>ODI</td>
+                                <td>2nd</td>
+                                <td>1st</td>
+                            </tr>
+                            <tr>
+                                <td>T20I</td>
+                                <td>5th</td>
+                                <td>1st</td>
+                            </tr>
+                        </table>
+                    </tr>
+                    <tr>
+                       <table>
+                           <thead>
+                               <th colspan="2">Team Players</th>
+                           </thead>
+                           <tbody>
+                               <tr>
+                                   <th>Player</th>
+                                   <th>Role</th>
+                               </tr>
+                               <tr>
+                                    <th>Virat Kohli</th>
+                                    <td>Batsman</td>
+                                </tr>
+                                <tr>
+                                    <th>Mahendra Singh Dhoni</th>
+                                    <td>Wicket Keeper</td>
+                                </tr>
+                                <tr>
+                                    <th>Rohit Sharma</th>
+                                    <td>Batsman</td>
+                                </tr>
+                                <tr>
+                                    <th>Ravindra Jadeja</th>
+                                    <td>All-rounder</td>
+                                </tr>
+                                <tr>
+                                    <th>K. L. Rahul</th>
+                                    <td>Wicket Keeper</td>
+                                </tr>
+                                <tr>
+                                    <th>Rishab Pant</th>
+                                    <td>Wicket Keeper</td>
+                                </tr>
+                                <tr>
+                                    <th>Hardik Pandya</th>
+                                    <td>All-rounder</td>
+                                </tr>
+                                <tr>
+                                    <th>Mayank Agarwal</th>
+                                    <td>Batsman</td>
+                                </tr>
+                                <tr>
+                                    <th>Jasprit Bumrah</th>
+                                    <td>Bowler</td>
+                                </tr>
+                                <tr>
+                                    <th>Dinesh Kartik</th>
+                                    <td>Wicket Keeper</td>
+                                </tr>
+                                <tr>
+                                    <th>Mohammed Shami</th>
+                                    <td>Bowler</td>
+                                </tr>
+                                <tr>
+                                    <th>Bhuvneshwar Kumar</th>
+                                    <td>Bowler</td>
+                                </tr>
+                                <tr>
+                                    <th>Yuzvendra Chawla</th>
+                                    <td>Bowler</td>
+                                </tr>
+                                <tr>
+                                    <th>Kuldeep Yadav</th>
+                                    <td>Bowler</td>
+                                </tr>
+                                <tr>
+                                    <th>Kedar Jadav</th>
+                                    <td>Batsman</td>
+                                </tr>
+                                <tr>
+                                    <th>Sanju Samson</th>
+                                    <td>Wicket Keeper</td>
+                                </tr>
+                                <tr>
+                                    <th>Wriddhiman Saha</th>
+                                    <td>Wicket Keeper</td>
+                                </tr>
+                                <tr>
+                                    <th>Shahbaz Nadeem</th>
+                                    <td>Bowler</td>
+                                </tr>
+                           </tbody>
+                       </table> 
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="5">Last updated on November 23</th>
+                    </tr>
+                </tfoot>
+             </table>
+       </article>
+    </body>
+</html>
