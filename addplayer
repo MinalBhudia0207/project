@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Minal Dhansukhlal">
+        <link href="css/styles.css" rel="stylesheet">
+        <link rel="icon" href="images/header.jpg">
+        <script src="javascript/addplayer.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Sports and Players</h1>
+        </header>
+    <section class="navbar">
+            <ul>
+                <li><a href="mainpage.html">Home</a</li>
+                <li><a href="">Sportman Profile</a></li>
+                <li class="dropdown">
+                    <button class="drop">Sport Teams</button>
+                    <div class="dropdownitems">
+                        <a href="cricket.html">Cricket</a>
+                        <a href="#">Football</a>
+                    </div>
+                </li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="admin"><a href="admin.html">Logout</a></li>
+            </ul>
+        </section class="loginform">
+        <form method="POST" action="" name="myQuiz">
+            <fieldset class="addplayer">
+                <legend>Player Information</legend>
+                <div>
+                    <label for="fullname">Full Name:</label>
+                    <input required type="text" name="fullname" id="full_name" placeholder="First and Last Name" size="25">
+                </div>
+                <div>
+                    <label for="date">Date of Birth</label>
+                    <input required type="date" placeholder="Date of Birth" id="dob" size="25">
+                </div>
+                <div>
+                    <label for="nickname">Nickname</label>
+                    <input type="text" placeholder="Nickname" id="nickname">
+                </div>
+                <div>
+                    <label for="age">Age:</label>
+                    <input required type="number" Placeholder="Age" id="age">
+                </div>
+                <div>
+                    <label for="height">Height:</label>
+                    <input type="text" placeholder="Height in feet and inches" id="height">
+                </div>
+                <div>
+                    <label for="role">Role:</label>
+                    <input required type="text" Placeholder="Role" id="role">
+                </div>
+                <div>
+                    <label for="role">Role:</label>
+                    <select name ="maritalstat" id="marital">
+                        <option name="maritalstat" value="Married">Married</option>
+                        <option name="maritalstat" value="Single">Single</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="pob">Place of Birth:</label>
+                    <input required type="text" placeholder="Place of Birth" id="pob">
+                </div>
+                <div>
+                    <label for="sportplayed">Sport played:</label>
+                    <input required type="text" placeholder="Sport Played" id="sportplayed">
+                </div>
+                <div>
+                    <label for="team">Team:</label>
+                    <input required type="text" placeholder="Team" id="team">
+                </div>
+                <div>
+                    <input type="submit" value="Submit" onClick="customValidation(this.form);">
+                    <input type="reset" value="Clear">
+                </div>
+            </form>
+        </section>
+    </section>
+    </body>
+</html>
